@@ -1,0 +1,29 @@
+{
+  "name": "gamewebsite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050",
+    "server": "json-server db.json -w -p 2000"
+  },
+  "dependencies": {
+    "@fortawesome/free-regular-svg-icons": "^6.1.0",
+    "@fortawesome/free-solid-svg-icons": "^6.1.0",
+    "axios": "^0.26.1",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.8.1",
+    "bootstrap-vue": "^2.21.2",
+    "jason-server": "^3.0.0",
+    "json-server": "^0.17.0",
+    "popper.js": "^1.16.1",
+    "swiper": "^8.0.7",
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.14",
+    "vueperslides": "^3.3.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.2",
+    "vite": "^2.8.4"
+  }
+}
